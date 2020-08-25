@@ -1,0 +1,28 @@
+.details {
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  flex-direction: column;
+}
+
+.details_box {
+  text-align: center;
+  padding: 20px 50px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.details_box p {
+  font-size: 30px;
+}
+
+.details_box h2 {
+  font-size: 40px;
+}
+
+.btn-back {
+  border: 0;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  margin-top: 20px;
+}

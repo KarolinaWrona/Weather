@@ -1,0 +1,30 @@
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+html,
+#root,
+.App,
+.home {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#name {
+  position: absolute;
+  color: grey;
+  font-size: 35px;
+  margin: 10px;
+}
+
+.App {
+  background-image: url("https://images.unsplash.com/photo-1571371867188-fdc3f1f8e62d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: 0;
+}
