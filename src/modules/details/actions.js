@@ -3,7 +3,7 @@ import { API_KEY, SET_WEATHER_DETAILS, appURLS } from "../../utils/Globals";
 
 export const getWeatherDetails = (city, history) => {
   return (dispatch) => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&lang=pl&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
     return axios
       .get(url)
       .then((response) => {

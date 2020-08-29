@@ -25,9 +25,9 @@ class Details extends Component {
             alt="Weather icon"
           />
           <p>{data.weather[0].description}</p>
-          <p>Temperatura: {temp} C</p>
-          <p>Ciśnienie: {data.main.pressure} hPa</p>
-          <p>Wiatr: {data.wind.speed} m/s </p>
+          <p>Temperature: {temp}°C</p>
+          <p>Pressure: {data.main.pressure} hPa</p>
+          <p>Wind: {data.wind.speed} m/s </p>
         </div>
         <button className="btn-back" onClick={this.goBackAction}>
           Back

@@ -22,7 +22,7 @@ body {
 }
 
 .App {
-  background-image: url("https://images.unsplash.com/photo-1571371867188-fdc3f1f8e62d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format");
+  background-image: url('../assets/image/aurora.jpg');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
